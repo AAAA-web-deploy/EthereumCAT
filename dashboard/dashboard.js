@@ -468,12 +468,18 @@
     });
   });
 
-  fetch("/site.config.json", { cache: "no-cache" })
+  const fallbackOrigins = {
+    "ethercat.online": "https://ethcat.103.161.35.238.sslip.io",
+    "www.ethercat.online": "https://ethcat.103.161.35.238.sslip.io",
+    "aaaa-web-deploy.github.io": "https://ethcat.103.161.35.238.sslip.io"
+  };
+  const configBase = location.href.endsWith("/") ? location.href : location.href + "/";
+  fetch(new URL("../site.config.json", configBase).href, { cache: "no-cache" })
     .then(function (response) { return response.ok ? response.json() : {}; })
     .catch(function () { return {}; })
     .then(function (config) {
       const configured = config.analytics && typeof config.analytics.apiOrigin === "string" ? config.analytics.apiOrigin : "";
-      origin = configured.replace(/\/$/, "");
+      origin = (configured || fallbackOrigins[location.hostname.toLowerCase()] || "").replace(/\/$/, "");
       return api("/api/dashboard/session");
     })
     .then(function (result) {

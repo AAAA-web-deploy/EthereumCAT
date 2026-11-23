@@ -59,6 +59,15 @@ export function serveStatic(req: IncomingMessage, res: ServerResponse, dist: str
     return
   }
   const dashboard = isDashboardPath(pathname)
+  if (pathname === '/dashboard') {
+    const target = new URL(req.url ?? '/dashboard', 'http://localhost')
+    target.pathname = '/dashboard/'
+    res.statusCode = 302
+    res.setHeader('location', `${target.pathname}${target.search}`)
+    res.setHeader('cache-control', 'private, no-store')
+    res.end()
+    return
+  }
   const extension = path.extname(pathname)
   if (extension) {
     const file = fileInside(dist, pathname)

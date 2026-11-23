@@ -3,8 +3,8 @@
 const CONFIG = Object.freeze({
   name: 'Ethereum Cat', symbol: 'ETHCAT', network: 'Ethereum Mainnet', chainId: 1,
   contractAddress: '0x73a869579309ef7a41ceff600547a3f6fabae34c',
-  tokenSupply: '', // e.g. "1,000,000,000 ETHCAT", once independently verified
-  transferTax: '', // e.g. "0%", once verified in the actual contract
+  tokenSupply: '1B',
+  transferTax: '0%',
   buyUrl: '', // optional verified swap route for the deployed token
   socials: {X:'https://x.com/ethereumcat_eth',Telegram:'https://t.me/ethereumcat_eth',GitHub:''},
   rpcUrls: ['https://ethereum-rpc.publicnode.com','https://cloudflare-eth.com'],

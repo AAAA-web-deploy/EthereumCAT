@@ -1,0 +1,329 @@
+{
+  "viewports": {
+    "1920x1080": {
+      "layout": {
+        "bodyWidth": 1920,
+        "viewportWidth": 1920,
+        "sections": [
+          {
+            "id": "home",
+            "width": 1920,
+            "height": 900
+          },
+          {
+            "id": "cat",
+            "width": 1920,
+            "height": 850
+          },
+          {
+            "id": "block-room",
+            "width": 1920,
+            "height": 1017
+          },
+          {
+            "id": "token",
+            "width": 1920,
+            "height": 902
+          },
+          {
+            "id": "community",
+            "width": 1920,
+            "height": 895
+          }
+        ],
+        "navCurrent": [
+          "Home"
+        ],
+        "brokenImages": [],
+        "livePosition": "static",
+        "headings": 1
+      },
+      "color": {
+        "mode": "finished",
+        "canvasPixel": 255,
+        "galleryColored": 9
+      },
+      "pencil": {
+        "mode": "pencil",
+        "canvasPixel": 0,
+        "galleryColored": 0
+      },
+      "exceptions": []
+    },
+    "1440x900": {
+      "layout": {
+        "bodyWidth": 1440,
+        "viewportWidth": 1440,
+        "sections": [
+          {
+            "id": "home",
+            "width": 1440,
+            "height": 802
+          },
+          {
+            "id": "cat",
+            "width": 1440,
+            "height": 778
+          },
+          {
+            "id": "block-room",
+            "width": 1440,
+            "height": 993
+          },
+          {
+            "id": "token",
+            "width": 1440,
+            "height": 832
+          },
+          {
+            "id": "community",
+            "width": 1440,
+            "height": 858
+          }
+        ],
+        "navCurrent": [
+          "Home"
+        ],
+        "brokenImages": [],
+        "livePosition": "static",
+        "headings": 1,
+        "navAfterBlockClick": [
+          "Block Room"
+        ],
+        "liveBoundingBox": {
+          "x": 74.875,
+          "y": 808.5,
+          "width": 1290.25,
+          "height": 165
+        },
+        "duringColorMode": "playing",
+        "duringColorPixelAlpha": 0
+      },
+      "color": {
+        "mode": "finished",
+        "canvasPixel": 255,
+        "galleryColored": 9
+      },
+      "pencil": {
+        "mode": "pencil",
+        "canvasPixel": 0,
+        "galleryColored": 0
+      },
+      "exceptions": []
+    },
+    "1024x800": {
+      "layout": {
+        "bodyWidth": 1024,
+        "viewportWidth": 1024,
+        "sections": [
+          {
+            "id": "home",
+            "width": 1024,
+            "height": 702
+          },
+          {
+            "id": "cat",
+            "width": 1024,
+            "height": 866
+          },
+          {
+            "id": "block-room",
+            "width": 1024,
+            "height": 988
+          },
+          {
+            "id": "token",
+            "width": 1024,
+            "height": 732
+          },
+          {
+            "id": "community",
+            "width": 1024,
+            "height": 750
+          }
+        ],
+        "navCurrent": [
+          "Home"
+        ],
+        "brokenImages": [],
+        "livePosition": "static",
+        "headings": 1
+      },
+      "color": {
+        "mode": "finished",
+        "canvasPixel": 255,
+        "galleryColored": 9
+      },
+      "pencil": {
+        "mode": "pencil",
+        "canvasPixel": 0,
+        "galleryColored": 0
+      },
+      "exceptions": []
+    },
+    "768x1000": {
+      "layout": {
+        "bodyWidth": 768,
+        "viewportWidth": 768,
+        "sections": [
+          {
+            "id": "home",
+            "width": 768,
+            "height": 1172
+          },
+          {
+            "id": "cat",
+            "width": 768,
+            "height": 817
+          },
+          {
+            "id": "block-room",
+            "width": 768,
+            "height": 906
+          },
+          {
+            "id": "token",
+            "width": 768,
+            "height": 1026
+          },
+          {
+            "id": "community",
+            "width": 768,
+            "height": 750
+          }
+        ],
+        "navCurrent": [
+          "Home"
+        ],
+        "brokenImages": [],
+        "livePosition": "static",
+        "headings": 1
+      },
+      "color": {
+        "mode": "finished",
+        "canvasPixel": 255,
+        "galleryColored": 9
+      },
+      "pencil": {
+        "mode": "pencil",
+        "canvasPixel": 0,
+        "galleryColored": 0
+      },
+      "exceptions": []
+    },
+    "390x844": {
+      "layout": {
+        "bodyWidth": 390,
+        "viewportWidth": 390,
+        "sections": [
+          {
+            "id": "home",
+            "width": 390,
+            "height": 810
+          },
+          {
+            "id": "cat",
+            "width": 390,
+            "height": 950
+          },
+          {
+            "id": "block-room",
+            "width": 390,
+            "height": 1635
+          },
+          {
+            "id": "token",
+            "width": 390,
+            "height": 759
+          },
+          {
+            "id": "community",
+            "width": 390,
+            "height": 1303
+          }
+        ],
+        "navCurrent": [
+          "Home"
+        ],
+        "brokenImages": [],
+        "livePosition": "static",
+        "headings": 1,
+        "menuExpanded": "true",
+        "menuVisible": true,
+        "menuCollapsed": "false",
+        "navAfterCatClick": [
+          "The Cat"
+        ]
+      },
+      "color": {
+        "mode": "finished",
+        "canvasPixel": 255,
+        "galleryColored": 9
+      },
+      "pencil": {
+        "mode": "pencil",
+        "canvasPixel": 0,
+        "galleryColored": 0
+      },
+      "exceptions": []
+    },
+    "320x740": {
+      "layout": {
+        "bodyWidth": 320,
+        "viewportWidth": 320,
+        "sections": [
+          {
+            "id": "home",
+            "width": 320,
+            "height": 772
+          },
+          {
+            "id": "cat",
+            "width": 320,
+            "height": 876
+          },
+          {
+            "id": "block-room",
+            "width": 320,
+            "height": 1582
+          },
+          {
+            "id": "token",
+            "width": 320,
+            "height": 855
+          },
+          {
+            "id": "community",
+            "width": 320,
+            "height": 1108
+          }
+        ],
+        "navCurrent": [
+          "Home"
+        ],
+        "brokenImages": [],
+        "livePosition": "static",
+        "headings": 1
+      },
+      "color": {
+        "mode": "finished",
+        "canvasPixel": 255,
+        "galleryColored": 9
+      },
+      "pencil": {
+        "mode": "pencil",
+        "canvasPixel": 0,
+        "galleryColored": 0
+      },
+      "exceptions": []
+    }
+  },
+  "source_assets_verified": 32,
+  "errors": [],
+  "integrity": {
+    "raster_valid": 44,
+    "svg_valid": 7,
+    "bad": [],
+    "hero_pair_registered": true
+  }
+}

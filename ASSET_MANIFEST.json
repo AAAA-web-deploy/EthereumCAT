@@ -1,0 +1,419 @@
+{
+  "project": "ETHCAT \u2014 corrected clean hero / no leftover raster artifacts",
+  "date": "2026-11-22",
+  "file_count": 67,
+  "files": {
+    "ARTWORK_FIX.md": {
+      "bytes": 1167,
+      "sha256": "4304f2f1c38f840aeb8968bd61aa9808cb67ae0400b38dd6fef0cc8f3d861bf5"
+    },
+    "CHANGELOG.md": {
+      "bytes": 1380,
+      "sha256": "56604d42a193f1aaf4737dd779882127ea267e01cb6c24ad4839876c947fb9ca"
+    },
+    "PREVIEW_DESKTOP.png": {
+      "bytes": 4617853,
+      "sha256": "7ad074176fba552fc33d10c97aff51dc8aafda042daa23548d52f06f7ef021c5",
+      "width": 1440,
+      "height": 4582,
+      "mode": "RGB"
+    },
+    "PREVIEW_HERO_FIXED.png": {
+      "bytes": 618271,
+      "sha256": "52feed2c6fd3e2dc1f8e83d25833e0117c5685d001af44251fd03d4044b96357",
+      "width": 729,
+      "height": 554,
+      "mode": "RGB"
+    },
+    "PREVIEW_MOBILE.png": {
+      "bytes": 366835,
+      "sha256": "320bc8557aa027deef3654e97bf79f4d0937306a669fe85088c56333bc460909",
+      "width": 390,
+      "height": 845,
+      "mode": "RGB"
+    },
+    "QA_REPORT.md": {
+      "bytes": 1586,
+      "sha256": "7c0734fb018244053bf6022627d7cebcee43701f0c1a9e009d7a5a6e7a5bec6a"
+    },
+    "QA_RESULTS.json": {
+      "bytes": 6897,
+      "sha256": "4fbf822b3d6d19899994f6c36b2a8bd310648b44a3364abada1e59e56f9a2333"
+    },
+    "README.md": {
+      "bytes": 1762,
+      "sha256": "c0a4b445945b960f90d9a0e33c5d2dd872af1debb3b283c324b2eb6851dd5688"
+    },
+    "assets/gallery/hemule-1-color.png": {
+      "bytes": 77373,
+      "sha256": "722052e31905e5dcb921619f15eb2b7aa14807d180491bf9ddad79ef223a344e",
+      "width": 191,
+      "height": 178,
+      "mode": "RGB"
+    },
+    "assets/gallery/hemule-1-ink.png": {
+      "bytes": 79577,
+      "sha256": "7be4b68073a32cd5a0e29d9e443eecefc0ff8769d13b909afd0f3f1723355484",
+      "width": 191,
+      "height": 178,
+      "mode": "RGB"
+    },
+    "assets/gallery/hemule-2-color.png": {
+      "bytes": 85606,
+      "sha256": "443e8e32ab07825ced20dcff74c79ef332c662350442c131cfa117f6072c0ec4",
+      "width": 203,
+      "height": 187,
+      "mode": "RGB"
+    },
+    "assets/gallery/hemule-2-ink.png": {
+      "bytes": 88963,
+      "sha256": "27d96a9bf8ccd971226d874eb529f585d4041f7b13c154062fb21b9fc05590c6",
+      "width": 203,
+      "height": 187,
+      "mode": "RGB"
+    },
+    "assets/gallery/hemule-3-color.png": {
+      "bytes": 91248,
+      "sha256": "af7c2fc9b155f902fd4cf44b35b124e1e4937814d2c02cdc028fe7dfe95fd1a8",
+      "width": 217,
+      "height": 190,
+      "mode": "RGB"
+    },
+    "assets/gallery/hemule-3-ink.png": {
+      "bytes": 94580,
+      "sha256": "d07070aacebd38802353f90ffdd0f4fdf3fe7653ef255354e685310be2ecbd61",
+      "width": 217,
+      "height": 190,
+      "mode": "RGB"
+    },
+    "assets/gallery/meme-box-color.png": {
+      "bytes": 80039,
+      "sha256": "727a5e6e23a023bc92d300e1b99e37d6401e4652a4ed5f99789a0de40d934e80",
+      "width": 196,
+      "height": 186,
+      "mode": "RGB"
+    },
+    "assets/gallery/meme-box-ink.png": {
+      "bytes": 82510,
+      "sha256": "9c9c4c8bb67fa0c35ca5d60c1c61e5e3d8b2684d8b665a25cc827f46277adddd",
+      "width": 196,
+      "height": 186,
+      "mode": "RGB"
+    },
+    "assets/gallery/meme-nap-color.png": {
+      "bytes": 83233,
+      "sha256": "93f82148d2c85bbfd5f1a7027031e97dfd4b81c3fc3906e191dfeb750e47b51f",
+      "width": 208,
+      "height": 190,
+      "mode": "RGB"
+    },
+    "assets/gallery/meme-nap-ink.png": {
+      "bytes": 88138,
+      "sha256": "4640dc0002eb9d7fa583a90f071afaef66e619188404f482063e928ee3af61e1",
+      "width": 208,
+      "height": 190,
+      "mode": "RGB"
+    },
+    "assets/gallery/meme-purr-color.png": {
+      "bytes": 83407,
+      "sha256": "5e1dfd9cc3ce31a0e88b0d97192c8f35353ecc4d0dc1eb7d58ee641d1795626a",
+      "width": 205,
+      "height": 189,
+      "mode": "RGB"
+    },
+    "assets/gallery/meme-purr-ink.png": {
+      "bytes": 86767,
+      "sha256": "a00bda310989d9fcfb8afe857212619c712a74b3a5ee8e893bcc7e1cfb89d87d",
+      "width": 205,
+      "height": 189,
+      "mode": "RGB"
+    },
+    "assets/gallery/story-1-color.png": {
+      "bytes": 68471,
+      "sha256": "8e2b3e5b6c870dda6aae343220d1702c19111d70ac825c2e2c8b1f3f0b93ed03",
+      "width": 233,
+      "height": 169,
+      "mode": "RGB"
+    },
+    "assets/gallery/story-1-ink.png": {
+      "bytes": 75541,
+      "sha256": "69949cb3f6f44ef29c8eb2ec3fe27ea667db27b4e3ef32c84177ef7621774055",
+      "width": 233,
+      "height": 169,
+      "mode": "RGB"
+    },
+    "assets/gallery/story-2-color.png": {
+      "bytes": 82683,
+      "sha256": "6615d581408f7a10df4037d7d60c507bfb1e887ee12aa33750040deac61d3be9",
+      "width": 262,
+      "height": 168,
+      "mode": "RGB"
+    },
+    "assets/gallery/story-2-ink.png": {
+      "bytes": 90881,
+      "sha256": "cf8fe77389bcb3a2a82b28e2acff6b95d5a098d925ab791411ca5b3c18327449",
+      "width": 262,
+      "height": 168,
+      "mode": "RGB"
+    },
+    "assets/gallery/story-3-color.png": {
+      "bytes": 79348,
+      "sha256": "3ae84bc27b41d9b1b7250d92a3bf380080f2eae4116e549fb55c6b4548af4245",
+      "width": 255,
+      "height": 172,
+      "mode": "RGB"
+    },
+    "assets/gallery/story-3-ink.png": {
+      "bytes": 85648,
+      "sha256": "5e9522db313310e84a4c575b59652f805bc0275c2c2ac9e8f2f908f7b08045a0",
+      "width": 255,
+      "height": 172,
+      "mode": "RGB"
+    },
+    "assets/icons/arrow.svg": {
+      "bytes": 239,
+      "sha256": "0439ceb3c00082be376e949c62556fc5f3ee9b0ef10466585e25bd3bb7fed1e5"
+    },
+    "assets/icons/block.svg": {
+      "bytes": 581,
+      "sha256": "8049732a0c6127dc2f08a2c166ecccc5f0ef14a9b4b4c9dd595d3c5ab50ba789"
+    },
+    "assets/icons/ethereum.svg": {
+      "bytes": 443,
+      "sha256": "29990cd8e84988b5bd6f3c6fb1b1731cc0e86470b82bfe13fac98a924d4ff1fc"
+    },
+    "assets/icons/paper-frame.svg": {
+      "bytes": 576,
+      "sha256": "b8c58922486a6bfc624692c50839c0c5deb5b5100d95a8a60373a91b27aa75bf"
+    },
+    "assets/icons/paw.svg": {
+      "bytes": 554,
+      "sha256": "0d0a227043b3d0c890bf3ead4631c43a8f7519e795ab2183d63f0ef5bbea8679"
+    },
+    "assets/icons/story.svg": {
+      "bytes": 966,
+      "sha256": "97bc8160d41ec4715614fa0f0bd4429ee4ddf8dc88b5b7c050dfd8f8948863ef"
+    },
+    "assets/icons/tape.svg": {
+      "bytes": 341,
+      "sha256": "ec66ee5bbaf2ab9bd85ec821fd84b920ec90050e9553307dcdb124a25653dd66"
+    },
+    "assets/mobile/footer-logo-clean.png": {
+      "bytes": 7211,
+      "sha256": "ec80b2e9d36beeed09566b568bbcb04df194a3e90f3ed4bbf603f053cec28840",
+      "width": 226,
+      "height": 65,
+      "mode": "RGBA"
+    },
+    "assets/mobile/header-logo-clean.png": {
+      "bytes": 10934,
+      "sha256": "5b86b19bbb3936cecbefe4fbe31979ea86493ded3b57b0d8b19b504451c49341",
+      "width": 272,
+      "height": 66,
+      "mode": "RGBA"
+    },
+    "assets/mobile/hero-color-clean.png": {
+      "bytes": 667444,
+      "sha256": "ab1212c963724c8a31611a448ba1d3d168c36ff2dc9e74b086377865eee74155",
+      "width": 576,
+      "height": 438,
+      "mode": "RGBA"
+    },
+    "assets/mobile/hero-ink-clean.png": {
+      "bytes": 227441,
+      "sha256": "94f0d7d8a3bb713369316230cc11342672a3335ee28505f57f610c98e0ba5ea7",
+      "width": 576,
+      "height": 438,
+      "mode": "RGBA"
+    },
+    "assets/mobile/hero-spatial-mask.png": {
+      "bytes": 16640,
+      "sha256": "7ba06031426a2e54bb1418196ef340a844b0f369e26208e6dcb47dd65b182a67",
+      "width": 576,
+      "height": 438,
+      "mode": "L"
+    },
+    "assets/mobile/hero-title-clean.png": {
+      "bytes": 29081,
+      "sha256": "3769a75ce43f89767737eadb7a3cc12c1ff70aac30da1cefa7a103e82fccc450",
+      "width": 372,
+      "height": 207,
+      "mode": "RGBA"
+    },
+    "assets/mobile/ribbon-block.png": {
+      "bytes": 47415,
+      "sha256": "38a85b544dafacdd4a52e6797b1efc6ee195a818acbf75f3443fdfbebf18c4fc",
+      "width": 392,
+      "height": 60,
+      "mode": "RGB"
+    },
+    "assets/mobile/ribbon-cat.png": {
+      "bytes": 34269,
+      "sha256": "01155cf1e03441ca9d9a230485df72977ce5f85ebe8450644f3ea75a321e0d23",
+      "width": 338,
+      "height": 49,
+      "mode": "RGB"
+    },
+    "assets/mobile/ribbon-memes.png": {
+      "bytes": 28533,
+      "sha256": "fbffd49c0d6d839e2cf13740055309d49471d55ae15880071740364b8b969c6a",
+      "width": 332,
+      "height": 45,
+      "mode": "RGB"
+    },
+    "assets/mobile/ribbon-token.png": {
+      "bytes": 22175,
+      "sha256": "6bc7bc7562740750b2874efd23024a81401c77bfe3f1e6314433961011209b83",
+      "width": 294,
+      "height": 37,
+      "mode": "RGB"
+    },
+    "assets/mobile/story-1-color.png": {
+      "bytes": 50414,
+      "sha256": "74ec123bdc30b5ab9f1d0d5c8dc893b899187b021fb6165c255828a30911f2b4",
+      "width": 201,
+      "height": 119,
+      "mode": "RGB"
+    },
+    "assets/mobile/story-1-ink.png": {
+      "bytes": 50414,
+      "sha256": "74ec123bdc30b5ab9f1d0d5c8dc893b899187b021fb6165c255828a30911f2b4",
+      "width": 201,
+      "height": 119,
+      "mode": "RGB"
+    },
+    "assets/mobile/story-2-color.png": {
+      "bytes": 59403,
+      "sha256": "19882db5cb9d644a277585840c5f3545c9ce478ed0a1d385aea7f662686ec649",
+      "width": 234,
+      "height": 123,
+      "mode": "RGB"
+    },
+    "assets/mobile/story-2-ink.png": {
+      "bytes": 65846,
+      "sha256": "0e80d99c639794a1da40e4ea5a6e5cdc90a5cf5952db076a824275f64251313a",
+      "width": 234,
+      "height": 123,
+      "mode": "RGB"
+    },
+    "assets/mobile/story-3-color.png": {
+      "bytes": 48273,
+      "sha256": "56f73fad0be39f3fdb301307dfc7a4aa340599ac7be1ef0aa5b0b597608cd427",
+      "width": 206,
+      "height": 120,
+      "mode": "RGB"
+    },
+    "assets/mobile/story-3-ink.png": {
+      "bytes": 53601,
+      "sha256": "909707a2887be41f163b0f5de65d15227ff0fcd504488575eaae9bf6b21d97d8",
+      "width": 206,
+      "height": 120,
+      "mode": "RGB"
+    },
+    "assets/reference/colored-reference.png": {
+      "bytes": 3099889,
+      "sha256": "c67ec93e7a2c8cf2da7179a2305e98b88e7b8d8bb93ce3bdad0a32c19868a01c",
+      "width": 1122,
+      "height": 1402,
+      "mode": "RGB"
+    },
+    "assets/reference/full-ink.png": {
+      "bytes": 3133971,
+      "sha256": "4f42d458dd13b164c6cd8a8b8d3f85b2e6b4202114c1f3c179d9b78d70a23f92",
+      "width": 1122,
+      "height": 1402,
+      "mode": "RGB"
+    },
+    "assets/reference/original-color-mockup.png": {
+      "bytes": 2818678,
+      "sha256": "62f5d82536609c6d8d38ce93617a1d95fa2c709bf5be9929d2e060230e8e1d4b",
+      "width": 1122,
+      "height": 1402,
+      "mode": "RGB"
+    },
+    "assets/reference/registered-chroma.png": {
+      "bytes": 2634434,
+      "sha256": "9012071e377c8cefdd48a2c08b91da71f69e9d0c58bd4ffb0f47cc03e51a5323",
+      "width": 1122,
+      "height": 1402,
+      "mode": "RGBA"
+    },
+    "assets/texture/paper.png": {
+      "bytes": 142694,
+      "sha256": "dbe5d8b47537984d000fb314af320a65e7e1338a4588b118f795b847baf4031c",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB"
+    },
+    "assets/ui/eth-sigil-clean.png": {
+      "bytes": 13069,
+      "sha256": "fe1a1be114c3850ba95d0155a935a2b47d92c9ca32ca67d340bb8168d494ee6b",
+      "width": 111,
+      "height": 179,
+      "mode": "RGBA"
+    },
+    "assets/ui/foot-mark.png": {
+      "bytes": 32116,
+      "sha256": "97e1403ae5dd486bfd0accb28ccc70079807ba6a744a6fe45e6990a0b717d7ae",
+      "width": 230,
+      "height": 76,
+      "mode": "RGB"
+    },
+    "assets/ui/ribbon-block.png": {
+      "bytes": 53042,
+      "sha256": "091b6929b590821bc6da4b9d765fb9391165ecea639eb0688f47dc36ac86e39b",
+      "width": 420,
+      "height": 63,
+      "mode": "RGB"
+    },
+    "assets/ui/ribbon-hemule.png": {
+      "bytes": 46366,
+      "sha256": "c89dc5e711509ec537e56db18adae0bb1a804d60bb890027d245392a7561494e",
+      "width": 357,
+      "height": 64,
+      "mode": "RGB"
+    },
+    "assets/ui/ribbon-memes.png": {
+      "bytes": 32741,
+      "sha256": "a40e2defc683caeda3968442d461daf4a9d5c61797b6f601791a286c15031fbf",
+      "width": 318,
+      "height": 53,
+      "mode": "RGB"
+    },
+    "assets/ui/ribbon-token.png": {
+      "bytes": 34076,
+      "sha256": "a4718111851c270240dc2607b507ae3bd20c71c650adaeb70973816bfd2e4024",
+      "width": 311,
+      "height": 53,
+      "mode": "RGB"
+    },
+    "favicon.svg": {
+      "bytes": 443,
+      "sha256": "29990cd8e84988b5bd6f3c6fb1b1731cc0e86470b82bfe13fac98a924d4ff1fc"
+    },
+    "index.html": {
+      "bytes": 12344,
+      "sha256": "60876844196575187a231f3d0ac6a51073680484bfc38f5a740a570e4bd730c1"
+    },
+    "src/animation.js": {
+      "bytes": 6930,
+      "sha256": "1582dd2aadfa304557c78213b8ce88ea7935710bd64e9ab42238f912122f7f3a"
+    },
+    "src/chain.js": {
+      "bytes": 2879,
+      "sha256": "cdd06267200cfd3995ab98adff55cb73f3b6df60a29b5519ec24265dfdc74d75"
+    },
+    "src/config.js": {
+      "bytes": 787,
+      "sha256": "e0e0dab5f1dc94285935359b158297fe5f992f82f82e748274b33853f244960e"
+    },
+    "src/main.js": {
+      "bytes": 4950,
+      "sha256": "1837d6c8d88d6f9c3b4fc9fde5cca37dacd19abbbe5dd90623b823bec43575f9"
+    },
+    "src/styles.css": {
+      "bytes": 18862,
+      "sha256": "f97e536dd77b964177bfd0841e3a4f34523ba0cb796ba3a837712f3183e0d543"
+    }
+  }
+}

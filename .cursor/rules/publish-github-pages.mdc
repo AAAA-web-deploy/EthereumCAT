@@ -1,0 +1,17 @@
+---
+description: After website changes, push main and confirm GitHub Pages republished
+alwaysApply: true
+---
+
+# Publish ETHCAT to GitHub Pages
+
+Remote: https://github.com/AAAA-web-deploy/EthereumCAT.git
+Live site: https://aaaa-web-deploy.github.io/EthereumCAT/
+Publish with GitHub account `AAAA-web-deploy`. The GitHub CLI is `C:\Users\Administrator\AppData\Local\Programs\gh\gh.exe`.
+
+When website code in this project changes:
+
+1. Switch the active GitHub account with `gh auth switch --user AAAA-web-deploy`. Remember the previous account and switch back when the push is done.
+2. Commit the website changes. Do not force-push.
+3. Push to `main`.
+4. The "Deploy GitHub Pages" workflow republishes the live site on every push to `main`. Confirm that run succeeds, then check the live URL.

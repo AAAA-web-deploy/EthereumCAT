@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f8f7f3">
+  <meta name="description" content="Ethereum Cat ($ETHCAT) — Every block is a box. Pencil-drawn Ethereum cat art inspired by Hemule.">
+  <title>Ethereum Cat ($ETHCAT) — Every Block Is a Box</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="preload" as="image" href="./assets/mobile/hero-ink-clean.png">
+  <link rel="stylesheet" href="./src/styles.css">
+  <script defer src="./src/config.js"></script>
+  <script defer src="./src/chain.js"></script>
+  <script defer src="./src/animation.js"></script>
+  <script defer src="./src/main.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#cat">Skip to content</a>
+<div class="toast" id="notice" role="status" aria-live="polite"></div>
+
+<header class="site-header" id="site-header">
+  <div class="header-inner">
+    <a href="#home" class="site-logo" aria-label="ETHCAT home"><img src="./assets/mobile/header-logo-clean.png" alt="Ethereum Cat, ETHCAT" width="272" height="66"></a>
+    <button class="menu-toggle sketch-button" id="menu-toggle" aria-expanded="false" aria-controls="main-nav">Menu <span aria-hidden="true">☰</span></button>
+    <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+      <a class="nav-link is-current" href="#home" aria-current="page">Home</a>
+      <a class="nav-link" href="#cat">The Cat</a>
+      <a class="nav-link" href="#block-room">Block Room</a>
+      <a class="nav-link" href="#token">Token</a>
+      <a class="nav-link" href="#community">Community</a>
+    </nav>
+    <button class="buy-button sketch-button" data-action="buy">BUY $ETHCAT <span aria-hidden="true">↗</span></button>
+  </div>
+</header>
+
+<main>
+  <section class="hero stage" id="home" aria-labelledby="hero-heading">
+    <div class="page-inner hero-inner">
+      <div class="hero-copy">
+        <h1 class="hero-heading" id="hero-heading"><img class="hero-title-graphic" src="./assets/mobile/hero-title-clean.png" alt="EVERY BLOCK IS A BOX." width="372" height="207" fetchpriority="high"></h1>
+        <p class="hero-kicker">Ethereum Cat <span aria-hidden="true">·</span> <strong>$ETHCAT</strong></p>
+        <p class="hero-statement">Vitalik built the chain.<br>Hemule claims the boxes.</p>
+        <div class="hero-actions">
+          <a href="#cat" class="sketch-button hero-cta">MEET HEMULE <span aria-hidden="true">→</span></a>
+          <a href="#block-room" class="sketch-button hero-cta">ENTER THE BLOCK ROOM <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <div class="hero-illustration paint-surface" id="hero-illustration" data-colorwash data-ink="./assets/mobile/hero-ink-clean.png" data-color="./assets/mobile/hero-color-clean.png">
+        <img class="base-ink" src="./assets/mobile/hero-ink-clean.png" alt="Hand-drawn artistic composition of Vitalik Buterin with Hemule, a tabby cat, surrounded by Ethereum cubes" width="576" height="438" fetchpriority="high">
+        <canvas class="ink-animation" aria-hidden="true" width="576" height="438"></canvas>
+        <canvas class="color-animation" aria-hidden="true" width="576" height="438"></canvas>
+      </div>
+      <div class="hero-doodle" aria-hidden="true"><img src="./assets/ui/eth-sigil-clean.png" alt=""></div>
+    </div>
+    <p class="hero-note">An independent, fan-inspired ETHCAT tribute. Not endorsed by Vitalik Buterin.</p>
+  </section>
+
+  <section class="stage meet-stage" id="cat" aria-labelledby="cat-heading">
+    <div class="page-inner">
+      <div class="section-top">
+        <img class="heading-art" src="./assets/ui/ribbon-hemule.png" alt="MEET HEMULE" id="cat-heading" width="357" height="64">
+        <span class="section-index">01 / THE CAT</span>
+      </div>
+      <div class="meet-layout">
+        <div class="meet-text">
+          <p class="big-copy">The cat behind the chain.</p>
+          <p>Hemule is a tabby cat publicly depicted in photographs shared by Maia Buterin in December 2023.</p>
+          <p>ETHCAT is a community tribute to cat culture and Ethereum, not an official project associated with Vitalik Buterin.</p>
+          <img class="paw-doodle" src="./assets/icons/paw.svg" alt="" aria-hidden="true">
+        </div>
+        <div class="photo-wall">
+          <figure class="sketch-photo tilted-left">
+            <div class="paint-pair"><img src="./assets/gallery/hemule-1-ink.png" alt="Hemule-inspired striped cat portrait, drawn in pencil" width="191" height="178" loading="lazy"><img class="fill" src="./assets/gallery/hemule-1-color.png" alt="" aria-hidden="true" loading="lazy"></div>
+            <figcaption>The quiet observer</figcaption>
+          </figure>
+          <figure class="sketch-photo tilted-right">
+            <div class="paint-pair"><img src="./assets/gallery/hemule-2-ink.png" alt="Hemule-inspired cat sleeping with paws forward" width="203" height="187" loading="lazy"><img class="fill" src="./assets/gallery/hemule-2-color.png" alt="" aria-hidden="true" loading="lazy"></div>
+            <figcaption>Between blocks</figcaption>
+          </figure>
+          <figure class="sketch-photo tilted-left">
+            <div class="paint-pair"><img src="./assets/gallery/hemule-3-ink.png" alt="Hemule-inspired tabby looking into the distance" width="217" height="190" loading="lazy"><img class="fill" src="./assets/gallery/hemule-3-color.png" alt="" aria-hidden="true" loading="lazy"></div>
+            <figcaption>Watching the chain</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stage block-stage" id="block-room" aria-labelledby="block-heading">
+    <div class="page-inner">
+      <div class="section-top">
+        <img class="heading-art" src="./assets/ui/ribbon-block.png" alt="THE BLOCK ROOM" id="block-heading" width="420" height="63">
+        <span class="section-index">02 / THE IDEA</span>
+      </div>
+      <p class="section-lead">See how Ethereum works — from a new block to a cat-claimed box.</p>
+      <div class="story-grid">
+        <article class="story-card">
+          <header><span class="step-num">01</span><h3>NEW BLOCK</h3></header>
+          <div class="paint-pair story-picture"><img src="./assets/mobile/story-1-ink.png" alt="A fresh Ethereum block, drawn as a cube" width="201" height="119" loading="lazy"><img class="fill" src="./assets/mobile/story-1-color.png" alt="" aria-hidden="true" loading="lazy"></div>
+          <p>A new Ethereum block appears.</p>
+        </article>
+        <article class="story-card">
+          <header><span class="step-num">02</span><h3>CAT CLAIMS THE BOX</h3></header>
+          <div class="paint-pair story-picture"><img src="./assets/mobile/story-2-ink.png" alt="Hemule-style tabby climbing into a block-shaped box" width="234" height="123" loading="lazy"><img class="fill" src="./assets/mobile/story-2-color.png" alt="" aria-hidden="true" loading="lazy"></div>
+          <p>The box belongs to Hemule now.</p>
+        </article>
+        <article class="story-card">
+          <header><span class="step-num">03</span><h3>SHARE THE MEME</h3></header>
+          <div class="paint-pair story-picture"><img src="./assets/mobile/story-3-ink.png" alt="Cat-in-a-box illustration inside a social post" width="206" height="120" loading="lazy"><img class="fill" src="./assets/mobile/story-3-color.png" alt="" aria-hidden="true" loading="lazy"></div>
+          <p>Pass the next box along.</p>
+        </article>
+      </div>
+
+      <div class="live-block-sketch" aria-label="Live Ethereum blocks">
+        <div class="live-emblem"><img src="./assets/icons/block.svg" alt="" aria-hidden="true"></div>
+        <div class="live-description"><h3>LIVE ETHEREUM BLOCKS</h3><p>Follow the latest blocks on Ethereum. Real network updates when connected.</p></div>
+        <div class="live-readout" role="status" aria-live="polite"><span class="live-eyebrow"><span id="live-dot" class="status-light" aria-hidden="true"></span> ETHEREUM MAINNET</span><strong id="live-block">Connecting to Ethereum…</strong><span id="live-age" class="live-age">Live data when connected</span></div>
+        <button class="sketch-button refresh-button" id="refresh-block" aria-label="Refresh Ethereum block">↻ Refresh</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="stage token-stage" id="token" aria-labelledby="token-heading">
+    <div class="page-inner">
+      <div class="section-top"><img class="heading-art" src="./assets/ui/ribbon-token.png" alt="TOKEN DETAILS" id="token-heading" width="308" height="64"><span class="section-index">03 / THE TOKEN</span></div>
+      <div class="token-layout">
+        <div class="token-intro"><p class="big-copy">A little cat on a very big chain.</p><p>Clear information, no mystery addresses. Contract and supply details appear here only when verified.</p><img src="./assets/icons/block.svg" alt="Pencil outline of an Ethereum block" loading="lazy"></div>
+        <div class="token-info"><table class="token-table" aria-label="Ethereum Cat token information"><tbody><tr><th>Name</th><td>Ethereum Cat</td></tr><tr><th>Symbol</th><td>ETHCAT</td></tr><tr><th>Network</th><td>Ethereum Mainnet</td></tr><tr><th>Contract</th><td id="contract-value">Not published</td></tr><tr><th>Supply</th><td id="supply-value">To be confirmed</td></tr><tr><th>Tax</th><td id="tax-value">To be confirmed</td></tr></tbody></table>
+          <div class="token-buttons"><button class="sketch-button" data-action="copy-contract">COPY CONTRACT</button><button class="sketch-button" data-action="buy">BUY $ETHCAT ↗</button></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stage community-stage" id="community" aria-labelledby="community-heading">
+    <div class="page-inner">
+      <div class="section-top"><img class="heading-art" src="./assets/ui/ribbon-memes.png" alt="MEME GALLERY" id="community-heading" width="307" height="61"><span class="section-index">04 / THE COMMUNITY</span></div>
+      <p class="section-lead">A box, a cat, a little internet mischief.</p>
+      <div class="meme-grid">
+        <figure class="meme-card"><div class="paint-pair"><img src="./assets/gallery/meme-box-ink.png" alt="My Box. My Block. cat meme" loading="lazy" width="196" height="186"><img class="fill" src="./assets/gallery/meme-box-color.png" alt="" aria-hidden="true" loading="lazy"></div></figure>
+        <figure class="meme-card"><div class="paint-pair"><img src="./assets/gallery/meme-purr-ink.png" alt="Proof of Purr. yawning cat meme" loading="lazy" width="205" height="189"><img class="fill" src="./assets/gallery/meme-purr-color.png" alt="" aria-hidden="true" loading="lazy"></div></figure>
+        <figure class="meme-card"><div class="paint-pair"><img src="./assets/gallery/meme-nap-ink.png" alt="Do Not Disturb. cat sleeping in box meme" loading="lazy" width="208" height="190"><img class="fill" src="./assets/gallery/meme-nap-color.png" alt="" aria-hidden="true" loading="lazy"></div></figure>
+      </div>
+      <div class="community-actions"><button class="sketch-button" data-action="social" data-network="X">X / TWITTER ↗</button><button class="sketch-button" data-action="social" data-network="Telegram">TELEGRAM ↗</button></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer"><div class="page-inner footer-inner"><img src="./assets/mobile/footer-logo-clean.png" width="226" height="65" alt="ETHCAT Ethereum Cat"><p>Independent fan-inspired meme token. Not affiliated with or endorsed by Vitalik Buterin or the Ethereum Foundation. The drawings are an artistic composite, not authentic photographs of Vitalik holding Hemule.</p><button class="back-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑ Back to top</button></div></footer>
+
+<div class="animation-controls" id="animation-controls" aria-label="Artwork animation controls"><button id="replay" title="Replay pencil drawing and gradual color filling">↺ Replay</button><button id="skip" title="Display complete coloring">✦ Skip intro</button><button id="compare" title="Toggle pencil-only and colored artwork">◐ Pencil / Color</button></div>
+<div class="sr-only" id="a11y-status" role="status" aria-live="polite"></div>
+</body>
+</html>
